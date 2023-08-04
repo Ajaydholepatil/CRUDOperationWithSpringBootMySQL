@@ -38,6 +38,7 @@ public class AdminController {
     public String deleteAdminById(@PathVariable("aid") int id) {
         adminService.deleteAdminById(id);
         return "Resource has been deleted successfully";
+
     }
 
 
