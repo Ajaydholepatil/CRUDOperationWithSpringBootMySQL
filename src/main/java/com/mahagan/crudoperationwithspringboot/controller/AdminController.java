@@ -39,6 +39,8 @@ public class AdminController {
         adminService.deleteAdminById(id);
         return "Resource has been deleted successfully";
 
+
+
     }
 
 
